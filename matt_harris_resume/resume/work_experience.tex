@@ -1,0 +1,92 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Work Experience}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+  {Research Assistant - Data Analysis and Machine Learning} 
+  {University of Massachusetts, Amherst} 
+  {Amherst, Massachusetts} 
+  {Jan. 2021 - Present} 
+  {
+    \begin{itemize}
+      \item {Lead analyst for a high-energy physics analysis using data from the ATLAS detector at CERN, focused on measuring a rare Higgs boson process.}
+      \item {Processed hundreds of terabytes of real and simulated data into compact datasets ($\sim$2 TB) using distributed computing and the \texttt{PanDA} workload management system.}
+      \item {Built an efficient data analysis framework in Python using ROOT's \texttt{RDataFrame} to perform columnar analysis.}
+      \item {Developed machine learning pipelines using \texttt{TensorFlow} and \texttt{scikit-learn}, incorporating data normalization, feature scaling, and one-hot encoding. Addressed class imbalance by scaling signal and background samples to have equal total weight. Trained four multi-class classifiers and a regression model to predict a non-reconstructable quantity.}
+      \item {Prototyped a graph neural network using \texttt{PyTorch} to explore alternative architectures.}
+      \item {Implemented model validation with 5-fold cross-validation and hyperparameter tuning using \texttt{keras-tuner}; Evaluated model performance using ROC curves and confusion matrices.}
+      \item {Built a data-driven background estimation method to model processes not well captured by simulation. Derived weights from control samples and propagated uncertainties through the analysis.}
+      \item {Performed statistical modeling including likelihood fitting and uncertainty estimation to extract physical parameters.}
+      \item {Maintained analysis code and documentation in GitLab; authored internal technical reports detailing methodology and results.}
+    \end{itemize}
+  }
+
+\cventry
+  {Research Assistant - Software and Detector Geometry Development} 
+  {University of Massachusetts, Amherst} 
+  {Amherst, Massachusetts} 
+  {Jan. 2021 - Present} 
+  {
+    \begin{itemize}
+      \item {Developed a detector geometry for the ATLAS Muon Spectrometer using a C++20-based high-energy physics library, maintaining up-to-date design implementations.}
+      \item {Created a geometry navigation algorithm using frustum and octree techniques to enable efficient traversal of complex detector structures.}
+      \item {Implemented a material description system for passive and support structures within the ATLAS software framework.}
+      \item {Simulated particle interactions and validated geometry performance by comparing reconstructed vs. truth data.}
+      \item {Implemented initial calibration algorithms for the upgraded muon system in the ATLAS software framework.}
+    \end{itemize}
+  }
+
+  \cventry
+    {Teaching Assistant} % Degree
+    {University of Massachusetts, Amherst} % Institution
+    {Amherst, Massachusetts} % Location
+    {Aug. 2020 - Dec. 2022} % Date(s)
+    {
+      \begin{cvitems}
+        \item {Independently taught undergraduate physics laboratory courses for life science majors and engineering students, managing all aspects including instruction, grading lab reports, and holding office hours.}
+        \item {Assisted in a team-based learning course for first-year physics students, emphasizing collaborative problem-solving and conceptual understanding.}
+        \item {Supported students in developing a solid grasp of fundamental physics principles and practical experimental skills, allowing them to draw conclusions from their observations.}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+\end{cventries}
+
+
+
+        % \item {\textbf{$VH \to WW^{*}$ cross section measurement:}} \\
+        % % \item {Main analyzer of the 3-lepton channel on the $VH \to WW^{*}$ cross section measurement analysis. Responsible for processing hundreds of terabytes of Monte Carlo simulation data and real data down to approximately 2 terabytes of total data, monitored the processing of the jobs with the PanDA workload management systems. Developed a python based analysis framework using PyROOT and it's RDataframe class to process events using a columnar approach, which allowed for efficient data processing. Developed two multi-classifier neural network models using Tensorflow and scikit-learn to distinguish signal events from background, and a regression neural network to estimate a kinematic variable that is not reconstructable.}
+        % \begin{cvitems}
+        %   \item {Main analyzer for the 3-lepton channel in the $VH \to WW^{*}$ cross-section measurement with the ATLAS experiment.}
+        %   \item {Processed hundreds of terabytes of Monte Carlo and real ATLAS data down to $\sim 2$ TB; managed data production and job submission using the \texttt{PanDA} workload management system.}
+        %   \item {Developed a Python-based analysis framework using \texttt{PyROOT} and \texttt{RDataFrame} for efficient columnar data processing.}
+        %   \item {Built a machine learning pipeline using \texttt{TensorFlow} and \texttt{scikit-learn}, including two multi-classifier neural networks and a regression model to estimate an unobservable kinematic variable.}
+        %   \item {Prototyped a graph neural network with \texttt{PyTorch} to explore alternative model architectures.}
+        %   \item {Performed hyperparameter optimization with \texttt{keras-tuner} and validated models using 5-fold cross-validation.}
+        %   \item {Evaluated model performance using ROC curves, confusion matrices, and a custom feature-ranking method.}
+        %   \item {Responsible for the statistical analysis to extract the signal cross section, including the preparation of input histograms, construction of likelihood models, and interpretation of fit results.}
+        %   \item {Maintained all code and documentation in a CERN GitLab repository, including internal notes detailing the full analysis.}
+        % \end{cvitems}
+        % \item {\textbf{Standard Model $WWW$ production cross section measurement:}} \\
+        % \begin{cvitems}
+        %   \item {Contributed to the $WWW$ production cross section measurement analysis, with main responsibility of training and deploying deep neural networks for the 2- and 3-lepton channels using \texttt{TensorFlow} and \texttt{scikit-learn}.}
+        % \end{cvitems}
+        % \item {\textbf{Muon Software development:}} \\
+        % \begin{cvitems}
+        %   \item {Developed a mock-up geometry of the ATLAS Muon Spectrometer using the \texttt{C++20}-based \texttt{ACTS} library.}
+        %   \item {Implemented and validated a novel prototype navigation algorithm using a combination of frustum and octree techniques --- commonly used in computer vision and gaming --- to efficiently traverse the detector geometry.}
+        %   \item {Created the first implementation of the Muon Spectrometer chambers using the second-generation \texttt{ACTS} geometry within the ATLAS software framework, \texttt{Athena}.}
+        %   \item {Implemented the initial version of the passive material model in the Muon Spectrometer, where chamber material is projected onto a central plane, and support structures are modeled as homogeneous material in bounding boxes.}
+        %   \item {Developed a converter in \texttt{ACTS} to transform \texttt{GeoModel} shapes and materials into corresponding \texttt{ACTS} types.}
+        %   \item {Built a prototype navigation test in \texttt{Athena} to compare simulated truth hits from \texttt{Geant4} with hits obtained via the \texttt{ACTS} navigation algorithm.}
+        %   \item {Constructed the initial version of the Muon Spectrometer geometry in \texttt{Athena} using the third-generation \texttt{ACTS} geometry model.}
+        %   \item {Implemented the first version of muon calibration algorithms in \texttt{Athena} for the Phase-II upgrade.}
+        % \end{cvitems}

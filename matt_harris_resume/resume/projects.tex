@@ -1,0 +1,31 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Other Projects}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {Training Projects} % Degree
+    {TAC-HEP} % Institution
+    {} % Location
+    {} % Date(s)
+    {
+      \begin{cvitems} % Description(s) bullet points
+        \item {\textbf{GPU Training Project:}} \\
+        \begin{cvitems}
+          \item {Developed a CUDA kernel to perform a stencil operation using the default stream, with supporting utility functions for error checking. Profiled the application using \texttt{nsys} to measure time spent in CUDA API calls, on the host, and on the device. Optimized performance by leveraging non-default CUDA streams and shared memory. Rewrote the application using the Alpaka portability library to enable cross-platform execution.}        
+        \end{cvitems}
+        \item {\textbf{FPGA Training Project:}} \\
+        \begin{cvitems}
+          \item {Implemented a sliding-window clustering algorithm using Vivado HLS to emulate FPGA-based data processing in high-energy physics experiments.}        \end{cvitems}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+\end{cventries}
